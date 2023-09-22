@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-image: url("https://media.giphy.com/media/2seceYgXu0hiHx1Jg4/giphy.gif");
+    background-size: cover;
+}
+
+.wrapper{
+    position: position;
+    
+}
+
+.container{
+    height: 10em; width: 45em;
+    position: relative;
+}
+
+.sunflower{
+    position: absolute;
+    width: 18em;
+    top: 275%;
+    left: 100%;
+    animation: spin 8s infinite linear;
+
+}
+
+.arthur{
+    position: absolute;
+    width: 75em;
+    top: 75%;
+    left: 65%;
+
+
+}
+
+@keyframes spin {
+    100% { transform:
+        rotate(360deg);
+     }
+}
+
+
+/* Opcional: si deseas agregar una animación al GIF */
+
+
+.center-container {
+    text-align: center;
+}
+
+.presionar {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
